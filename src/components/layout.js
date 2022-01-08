@@ -31,7 +31,7 @@ const StyledLayoutWrapper = styled.div`
 const Layout = ({ children }) => {
   const { isIntroDone } = useContext(Context).state
   // Enables dark mode if the user's OS has an active dark theme
-  const darkModeEnabled = useDarkMode()
+  const darkModeEnabled = false
   const theme = darkModeEnabled ? darkTheme : lightTheme
 
   return (
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         <GlobalStyle />
         {isIntroDone ? (
           <>
-            <Header />
+            {/* <Header / > */}
             <main id="main-content">{children}</main>
             <Footer />
           </>

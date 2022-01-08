@@ -61,17 +61,13 @@ module.exports = {
       url: "https://www.linkedin.com/in/konstantin-muenster/",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
-    },
-    {
       name: "Github",
       url:
         "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Resume",
+      url: "/goldenpuppy.pdf",
     },
     // {
     //   name: "Mail",
