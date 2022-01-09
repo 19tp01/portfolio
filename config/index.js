@@ -3,12 +3,11 @@ module.exports = {
   author: "@19tp01",
   siteTitle: "Terry Pi",
   siteShortTitle: "Terry Pi", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+  siteDescription: "Crafting solutions",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Terry Pi", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
@@ -101,7 +100,8 @@ module.exports = {
     {
       name:
         "Built using the Gatsby Starter Portfolio Minimal by Konstantin Münster",
-      url: "/privacy",
+      url:
+        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
     },
   ],
 }
