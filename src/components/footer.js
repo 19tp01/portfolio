@@ -40,7 +40,8 @@ const StyledContentWrapper = styled(ContentWrapper)`
 const StyledLink = styled(Link)`
   font-size: 0.875rem;
   font-weight: 700;
-  text-transform: uppercase;
+  line-height: 0.8rem;
+  text-align: right;
   color: ${({ theme, $darkMode }) =>
     $darkMode ? theme.colors.primary : theme.colors.background};
   letter-spacing: 1px;

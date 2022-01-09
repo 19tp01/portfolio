@@ -44,7 +44,6 @@ const StyledContentWrapper = styled(ContentWrapper)`
       .avatar {
         width: 100%;
         max-width: 8.75rem;
-        border-radius: 50%;
         margin-right: 4rem;
         margin-bottom: 2rem;
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -81,10 +80,6 @@ const Contact = ({ content }) => {
         <h3>{frontmatter.title}</h3>
         <MDXRenderer>{body}</MDXRenderer>
         <div className="profile">
-          <Img
-            className="avatar"
-            fluid={frontmatter.profileImage.childImageSharp.fluid}
-          />
           <div className="details">
             <strong>{frontmatter.name}</strong>
             <br />

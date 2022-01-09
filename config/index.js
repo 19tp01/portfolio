@@ -1,8 +1,8 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@19tp01",
+  siteTitle: "Terry Pi",
+  siteShortTitle: "Terry Pi", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
@@ -58,12 +58,11 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/terry-pi-a71247203/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/19tp01",
     },
     {
       name: "Resume",
@@ -100,12 +99,9 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Privacy",
+      name:
+        "Built using the Gatsby Starter Portfolio Minimal by Konstantin Münster",
       url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
     },
   ],
 }
