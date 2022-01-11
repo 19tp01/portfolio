@@ -65,7 +65,7 @@ module.exports = {
     },
     {
       name: "Resume",
-      url: "/goldenpuppy.pdf",
+      url: "/resume.pdf",
     },
     // {
     //   name: "Mail",
