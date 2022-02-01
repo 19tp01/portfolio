@@ -11,3 +11,9 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "https://terrypi.com/notes/*"
+  to = "https://publish.obsidian.md/serve?url=terrypi.com/notes/:splat"
+  status = 200
+  force = true
